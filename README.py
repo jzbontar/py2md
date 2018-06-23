@@ -27,7 +27,7 @@ import pylab as plt
 ### Plan
 
 1. define utility functions
-2. compute <img src="https://latex.codecogs.com/gif.latex?sin(x)" title="sin(x)" />
+2. compute <a href="https://www.codecogs.com/eqnedit.php?latex=sin(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?sin(x)" title="sin(x)" /></a>
 3. plot
 '''
 
