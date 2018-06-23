@@ -12,6 +12,9 @@ Install
 Usage
 -----
 
+Use three single quotes `'''` on a line by themselves in your python script to
+switch between code and markdown mode. When done, run:
+
     py2md README.py > README.md
 
 Example
