@@ -7,5 +7,5 @@ for markdown, lines in itertools.groupby(open(sys.argv[1]).readlines(), key=lamb
         print(''.join(line.lstrip('# ') for line in lines))
     else:
         print('\n```python')
-        print(''.join(lines))
+        print(''.join(lines).strip())
         print('```\n')
