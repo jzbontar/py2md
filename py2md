@@ -12,5 +12,4 @@ for block in blocks:
         print('```\n')
     elif not code:
         print(block.strip())
-        
     code = not code
