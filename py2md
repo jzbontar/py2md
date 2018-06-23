@@ -2,10 +2,10 @@
 import sys
 import itertools
 
-for k, g in itertools.groupby(open(sys.argv[1]).readlines(), key=lambda line: line.startswith('#')):
-    if k:
-        print(''.join(line[2:] for line in g))
+for markdown, lines in itertools.groupby(open(sys.argv[1]).readlines(), key=lambda line: line.startswith('#')):
+    if markdown:
+        print(''.join(line.lstrip('# ') for line in lines))
     else:
         print('\n```python')
-        print(''.join(g))
+        print(''.join(lines))
         print('```\n')
