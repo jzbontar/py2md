@@ -11,8 +11,8 @@
 # Usage
 # -----
 # 
-# Lines starting with `# ` are considered to be markdown, the rest is
-# consedered to be code. 
+# Lines starting with `#` are considered to be markdown. Other lines are
+# considered to be source code.
 # 
 #     py2md README.py > README.md
 # 
